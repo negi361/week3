@@ -1,1 +1,38 @@
 # week3
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介カード</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 py-8">
+    <main class="max-w-4xl mx-auto px-4">
+      <h1 class="text-2xl font-bold text-gray-900 mb-6 text-center">チームメンバー</h1>
+
+      <!-- カードを横3枚並びにする。スマホでは縦1列 -->
+      <div class="flex flex-col md:flex-row gap-6">
+
+        <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center">
+          <span class="text-4xl">🎸</span>
+          <h2 class="text-lg font-bold text-gray-900 mt-3">田中 凛</h2>
+          <p class="text-gray-600 text-sm mt-2 text-center">フロントエンドを担当。React好き。</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center">
+          <span class="text-4xl">💻</span>
+          <h2 class="text-lg font-bold text-gray-900 mt-3">佐藤 海</h2>
+          <p class="text-gray-600 text-sm mt-2 text-center">バックエンドを担当。DBが得意。</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center">
+          <span class="text-4xl">🎨</span>
+          <h2 class="text-lg font-bold text-gray-900 mt-3">山本 蒼</h2>
+          <p class="text-gray-600 text-sm mt-2 text-center">デザイン担当。Figma使い。</p>
+        </div>
+
+      </div>
+    </main>
+  </body>
+</html>
